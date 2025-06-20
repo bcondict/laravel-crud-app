@@ -26,8 +26,10 @@ This is a simple crud app using laravel, created using `laravel new <name>`
 3. Create the database in the database service you use
    ex: ``CREATE DATABSE IF NOT EXISTS `laravel-crud-app`;``
 
-4. run: `npm install`
+4. generate an auth key: `php artisan key:generate`
 
-5. run: `php artisan migrate`
+5. run: `npm install`
 
-6. Finally run: `composer run dev`
+6. run: `php artisan migrate`
+
+7. Finally run: `composer run dev`
