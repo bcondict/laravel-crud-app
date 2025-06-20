@@ -30,6 +30,8 @@ This is a simple crud app using laravel, created using `laravel new <name>`
 
 5. run: `npm install && npm run build`
 
-6. run: `php artisan migrate`
+6. run: `composer install`
 
-7. Finally run: `composer run dev`
+7. run: `php artisan migrate`
+
+8. Finally run: `composer run dev`
