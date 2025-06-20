@@ -3,4 +3,8 @@
 use App\Http\Controllers\TaskController;
 use Illuminate\Support\Facades\Route;
 
-Route::resource("api/task", TaskController::class)->name("*", "taskHandler")->only(["index", "show", "update", "store", "delete"]);
+Route::get("api/tasks", [TaskController::class, "all"]);
+Route::post("api/tasks", [TaskController::class, "store"]);
+Route::get("api/tasks/{id}", [TaskController::class, "show"]);
+Route::delete("api/tasks/{id}", [TaskController::class, "destroy"]);
+Route::patch("api/tasks/{id}", [TaskController::class, "update"]);
