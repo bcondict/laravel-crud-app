@@ -136,7 +136,7 @@ const submitForm = async (e) => {
                     </li>
                 </ul>
 
-                <div v-if="!tasks.length && !loading" class="mt-4 text-center text-gray-500">No tasks found.</div>
+                <div v-if="!tasks.length && !loading" class="mb-4 text-center text-gray-500">No tasks found.</div>
 
                 <button @click="showCreateTaskModal" class="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-400">Add Task</button>
             </div>
