@@ -24,7 +24,7 @@ This is a simple crud app using laravel, created using `laravel new <name>`
     note: I used `DB_CONNECTION=mysql`, `DB_HOST=127.0.0.1`, `DB_PORT=3306`, `DB_DATABASE=laravel-crud-app` and for `DB_USERNAME` and `DB_PASSWORD` use your credentials for it.
 
 3. Create the database in the database service you use
-   ex: `CREATE DATABSE IF NOT EXISTS \`laravel-crud-app\`;`
+   ex: ``CREATE DATABSE IF NOT EXISTS `laravel-crud-app`;``
 
 4. run: `npm install`
 
