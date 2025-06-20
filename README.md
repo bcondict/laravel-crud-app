@@ -28,7 +28,7 @@ This is a simple crud app using laravel, created using `laravel new <name>`
 
 4. generate an auth key: `php artisan key:generate`
 
-5. run: `npm install`
+5. run: `npm install && npm run build`
 
 6. run: `php artisan migrate`
 
